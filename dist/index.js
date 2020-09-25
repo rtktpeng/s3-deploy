@@ -1022,6 +1022,7 @@ let deploy = function (params) {
                         --gzip xml,html,htm,js,css,ttf,otf,svg,txt \
                         --invalidate "${invalidation}" \
                         --noCache \
+                        --private \
                         ${deleteRemovedArg} `;
 
       const cwd = path.resolve(folder);
